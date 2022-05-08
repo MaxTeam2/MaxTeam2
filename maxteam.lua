@@ -1,8 +1,8 @@
 ------------------------------------------------
--- This Source Was Developed By (Haider) @YTTYB.--
---   This Is The Source Channel @YTTYB .   --
---                - 𝗦𝗼𝘂𝗿𝗰𝗲 Haider-                 --
---        -- https://t.me/YTTYB --         --
+-- This Source Was Developed By (ROKSma) @RUKKS.--
+--   This Is The Source Channel @RUKKS .   --
+--                - 𝗦𝗼𝘂𝗿𝗰𝗲 ROKSma-                 --
+--        -- https://t.me/RUKKS --         --
 ------------------------------------------------ 
 URL     = require("./libs/url")
 JSON    = require("./libs/dkjson")
@@ -117,7 +117,7 @@ return Chat_Type
 end
 function The_ControllerAll(UserId)
 ControllerAll = false
-local ListSudos ={Sudo_Id,5293095203}  
+local ListSudos ={Sudo_Id,1873983449}  
 for k, v in pairs(ListSudos) do
 if tonumber(UserId) == tonumber(v) then
 ControllerAll = true
@@ -128,9 +128,9 @@ end
 function Controllerbanall(ChatId,UserId)
 Status = 0
 DevelopersQ = Redis:sismember(TheMAX.."MAX:DevelopersQ:Groups",UserId) 
-if UserId == 5293095203 then
+if UserId == 1873983449 then
 Status = true
-elseif UserId == 5293095203 then
+elseif UserId == 1873983449 then
 Status = true
 elseif UserId == Sudo_Id then  
 Status = true
@@ -154,7 +154,7 @@ Managers = Redis:sismember(TheMAX.."MAX:Managers:Group"..ChatId,UserId)
 Addictive = Redis:sismember(TheMAX.."MAX:Addictive:Group"..ChatId,UserId)
 Distinguished = Redis:sismember(TheMAX.."MAX:Distinguished:Group"..ChatId,UserId)
 StatusMember = LuaTele.getChatMember(ChatId,UserId).status.luatele
-if UserId == 5293095203 then
+if UserId == 1873983449 then
 Status = 'مطور السورس'
 elseif UserId == 1491969883 then
 Status = 'مطور السورس'
@@ -716,12 +716,12 @@ else
 UserInfousername = '['..UserInfo.first_name..'](tg://user?id='..UserId..')'
 end
 return {
-Lock     = '[Max 𝖲𝗈𝗎𝗋𝖼𝖾](https://t.me/ODKXXQ)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه المسح *',
-unLock   = '[Max 𝖲𝗈𝗎𝗋𝖼𝖾](https://t.me/ODKXXQ)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n'..TextMsg,
-lockKtm  = '[Max 𝖲𝗈𝗎𝗋𝖼𝖾](https://t.me/ODKXXQ)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه الكتم *',
-lockKid  = '[Max 𝖲𝗈𝗎𝗋𝖼𝖾](https://t.me/ODKXXQ)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه التقييد *',
-lockKick = '[Max 𝖲𝗈𝗎𝗋𝖼𝖾](https://t.me/ODKXXQ)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه الطرد *',
-Reply    = '[Max 𝖲𝗈𝗎𝗋𝖼𝖾](https://t.me/ODKXXQ)\n*— — — — — — — — —\n᥀︙المستخدم ← *'..UserInfousername..'\n*'..TextMsg..'*'
+Lock     = '[Max 𝖲𝗈𝗎𝗋𝖼𝖾](https://t.me/RoXeTEaM)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه المسح *',
+unLock   = '[Max 𝖲𝗈𝗎𝗋𝖼𝖾](https://t.me/RoXeTEaM)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n'..TextMsg,
+lockKtm  = '[Max 𝖲𝗈𝗎𝗋𝖼𝖾](https://t.me/RoXeTEaM)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه الكتم *',
+lockKid  = '[Max 𝖲𝗈𝗎𝗋𝖼𝖾](https://t.me/RoXeTEaM)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه التقييد *',
+lockKick = '[Max 𝖲𝗈𝗎𝗋𝖼𝖾](https://t.me/RoXeTEaM)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه الطرد *',
+Reply    = '[Max 𝖲𝗈𝗎𝗋𝖼𝖾](https://t.me/RoXeTEaM)\n*— — — — — — — — —\n᥀︙المستخدم ← *'..UserInfousername..'\n*'..TextMsg..'*'
 }
 end
 function StatusCanOrNotCan(ChatId,UserId)
@@ -734,9 +734,9 @@ Managers = Redis:sismember(TheMAX.."MAX:Managers:Group"..ChatId,UserId)
 Addictive = Redis:sismember(TheMAX.."MAX:Addictive:Group"..ChatId,UserId)
 Distinguished = Redis:sismember(TheMAX.."MAX:Distinguished:Group"..ChatId,UserId)
 StatusMember = LuaTele.getChatMember(ChatId,UserId).status.luatele
-if UserId == 5293095203 then
+if UserId == 1873983449 then
 Status = true
-elseif UserId == 5293095203 then
+elseif UserId == 1873983449 then
 Status = true
 elseif UserId == Sudo_Id then  
 Status = true
@@ -773,9 +773,9 @@ Managers = Redis:sismember(TheMAX.."MAX:Managers:Group"..ChatId,UserId)
 Addictive = Redis:sismember(TheMAX.."MAX:Addictive:Group"..ChatId,UserId)
 Distinguished = Redis:sismember(TheMAX.."MAX:Distinguished:Group"..ChatId,UserId)
 StatusMember = LuaTele.getChatMember(ChatId,UserId).status.luatele
-if UserId == 5293095203 then
+if UserId == 1873983449 then
 Status = true
-elseif UserId == 5293095203 then
+elseif UserId == 1873983449 then
 Status = true
 elseif UserId == Sudo_Id then    
 Status = true
@@ -901,10 +901,10 @@ return LuaTele.deleteMessages(msg.chat_id,{[1]= msg.id}),LuaTele.setChatMemberSt
 elseif Statusrestricted(msg.chat_id,msg.sender.user_id).SilentGroup == true then
 return LuaTele.deleteMessages(msg.chat_id,{[1]= msg.id})
 end
-if tonumber(msg.sender.user_id) == 5293095203 then
+if tonumber(msg.sender.user_id) == 1873983449 then
 msg.Name_Controller = 'مطور السورس '
 msg.The_Controller = 1
-elseif tonumber(msg.sender.user_id) == 5293095203 then
+elseif tonumber(msg.sender.user_id) == 1873983449 then
 msg.Name_Controller = 'مطور السورس '
 msg.The_Controller = 1
 elseif The_ControllerAll(msg.sender.user_id) == true then  
@@ -1575,7 +1575,7 @@ data = {
 {text = '- الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾 ⁦', url='https://t.me/ODKXXQ'},
+{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾 ⁦', url='https://t.me/RoXeTEaM'},
 },
 }
 }
@@ -1772,7 +1772,7 @@ data = {
 {text = '- الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾 ⁦', url='https://t.me/ODKXXQ'},
+{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾 ⁦', url='https://t.me/RoXeTEaM'},
 },
 }
 }
@@ -2046,7 +2046,7 @@ data = {
 {text = '- الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾 ⁦', url='https://t.me/ODKXXQ'},
+{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾 ⁦', url='https://t.me/RoXeTEaM'},
 },
 }
 }
@@ -2496,7 +2496,7 @@ end
 end   
 Get_Json = Get_Json..'],'
 end
-Get_Json = Get_Json..'"Dev":"YTTYB"}'
+Get_Json = Get_Json..'"Dev":"RUKKS"}'
 end
 Get_Json = Get_Json..'}}'
 local File = io.open('./'..UserBot..'.json', "w")
@@ -2643,7 +2643,7 @@ data = {
 {text = '‹ تفعيل الايدي ›', data = msg.sender.user_id..'/'.. 'mute_IdPhoto'},
 },
 {
-{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/ODKXXQ'},
+{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/RoXeTEaM'},
 },
 }
 }
@@ -2726,7 +2726,7 @@ data = {
 {text = '‹ تفعيل الايدي ›', data = msg.sender.user_id..'/'.. 'mute_IdPhoto'},
 },
 {
-{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/ODKXXQ'},
+{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/RoXeTEaM'},
 },
 }
 }
@@ -3074,7 +3074,7 @@ if text == 'رتبتي' then
 local ban = LuaTele.getUser(msg.sender.user_id)
 local news = ' '..msg.Name_Controller
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {
-{{text =news,url = "https://t.me/ODKXXQ"}, },}}
+{{text =news,url = "https://t.me/RoXeTEaM"}, },}}
 return LuaTele.sendText(msg_chat_id,msg_id,'\n᥀︙رتبتك هي : '..msg.Name_Controller,"md", false, false, false, false, reply_markup)
 end
 if text == 'ايديي' then
@@ -4535,7 +4535,7 @@ data = {
 {text = '- الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url='https://t.me/ODKXXQ'},
+{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url='https://t.me/RoXeTEaM'},
 },
 }
 }
@@ -5058,7 +5058,7 @@ if not msg.DevelopersQ then
 return LuaTele.sendText(msg_chat_id,msg_id,'\n* ᥀︙ هاذا الامر يخص 『 '..Controller_Num(2)..' 』* ',"md",true)  
 end
 if ChannelJoin(msg) == false then
-local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/ODKXXQ'}, },}}
+local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/RoXeTEaM'}, },}}
 return LuaTele.sendText(msg.chat_id,msg.id,'*\n ᥀︙ عليك الاشتراك في قناة البوت لاستخذام الاوامر*',"md",false, false, false, false, reply_markup)
 end
 local UserId_Info = LuaTele.searchPublicChat(UserName)
@@ -5099,7 +5099,7 @@ if not msg.DevelopersQ then
 return LuaTele.sendText(msg_chat_id,msg_id,'\n* ᥀︙ هاذا الامر يخص 『 '..Controller_Num(2)..' 』* ',"md",true)  
 end
 if ChannelJoin(msg) == false then
-local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/ODKXXQ'}, },}}
+local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/RoXeTEaM'}, },}}
 return LuaTele.sendText(msg.chat_id,msg.id,'*\n ᥀︙ عليك الاشتراك في قناة البوت لاستخذام الاوامر*',"md",false, false, false, false, reply_markup)
 end
 local UserId_Info = LuaTele.searchPublicChat(UserName)
@@ -5573,7 +5573,7 @@ if not msg.DevelopersQ then
 return LuaTele.sendText(msg_chat_id,msg_id,'\n* ᥀︙ هاذا الامر يخص 『 '..Controller_Num(2)..' 』* ',"md",true)  
 end
 if ChannelJoin(msg) == false then
-local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/ODKXXQ'}, },}}
+local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/RoXeTEaM'}, },}}
 return LuaTele.sendText(msg.chat_id,msg.id,'*\n ᥀︙ عليك الاشتراك في قناة البوت لاستخذام الاوامر*',"md",false, false, false, false, reply_markup)
 end
 local Message_Reply = LuaTele.getMessage(msg.chat_id, msg.reply_to_message_id)
@@ -5611,7 +5611,7 @@ if not msg.DevelopersQ then
 return LuaTele.sendText(msg_chat_id,msg_id,'\n* ᥀︙ هاذا الامر يخص 『 '..Controller_Num(2)..' 』* ',"md",true)  
 end
 if ChannelJoin(msg) == false then
-local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/ODKXXQ'}, },}}
+local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/RoXeTEaM'}, },}}
 return LuaTele.sendText(msg.chat_id,msg.id,'*\n ᥀︙ عليك الاشتراك في قناة البوت لاستخذام الاوامر*',"md",false, false, false, false, reply_markup)
 end
 local Message_Reply = LuaTele.getMessage(msg.chat_id, msg.reply_to_message_id)
@@ -6259,7 +6259,7 @@ local TestText = "  ❲ Owner Groups ❳\n— — — — — — — — —\n 
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳', url = "https://t.me/ODKXXQ"}
+{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳', url = "https://t.me/RoXeTEaM"}
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -6665,7 +6665,7 @@ keyboard.inline_keyboard = {
 {text = ': مره اخرى 🔃.', callback_data = IdUser..'/Re@'},
 },
 {
-{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳',url="t.me/ODKXXQ"}
+{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳',url="t.me/RoXeTEaM"}
 },
 }
 local msg_id = msg.id/2097152/0.5
@@ -6676,7 +6676,7 @@ Abs = math.random(2,140);
 local Text ='*᥀︙تم اختيار متحركه لك*'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳',url="t.me/ODKXXQ"}},
+{{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳',url="t.me/RoXeTEaM"}},
 }
 local msg_id = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token..'/sendanimation?chat_id=' .. msg.chat_id .. '&animation=https://t.me/GifDavid/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -6686,7 +6686,7 @@ Abs = math.random(2,140);
 local Text ='*᥀︙تم اختيار الشعر لك فقط*'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳',url="t.me/ODKXXQ"}},
+{{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳',url="t.me/RoXeTEaM"}},
 }
 local msg_id = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. msg.chat_id .. '&voice=https://t.me/L1BBBL/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -6696,7 +6696,7 @@ Abs = math.random(2,140);
 local Text ='*᥀︙تم اختيار الميمز لك فقط*'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳',url="t.me/ODKXXQ"}},
+{{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳',url="t.me/RoXeTEaM"}},
 }
 local msg_id = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. msg.chat_id .. '&voice=https://t.me/remixsource/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -6707,7 +6707,7 @@ local Text ='*᥀︙تم اختيار ريمكس لك*'
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳', url = "https://t.me/ODKXXQ"}
+{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳', url = "https://t.me/RoXeTEaM"}
 },
 }
 local msg_id = msg.id/2097152/0.5
@@ -6719,7 +6719,7 @@ local Text ='*᥀︙تم اختيار الفلم لك*'
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳', url = "https://t.me/ODKXXQ"}
+{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳', url = "https://t.me/RoXeTEaM"}
 },
 }
 local msg_id = msg.id/2097152/0.5
@@ -6731,7 +6731,7 @@ local Text ='*᥀︙تم اختيار انمي لك*'
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳', url = "https://t.me/ODKXXQ"}
+{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳', url = "https://t.me/RoXeTEaM"}
 },
 }
 local msg_id = msg.id/2097152/0.5
@@ -6742,7 +6742,7 @@ Abs = math.random(2,140);
 local Text ='*᥀︙تم اختيار الاغنيه لك*'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳',url="t.me/ODKXXQ"}},
+{{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳',url="t.me/RoXeTEaM"}},
 }
 local msg_id = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. msg.chat_id .. '&voice=https://t.me/lDIDIl/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -6753,7 +6753,7 @@ local Text ='*᥀︙تم اختيار صور*'
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳', url = "https://t.me/ODKXXQ"}
+{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳', url = "https://t.me/RoXeTEaM"}
 },
 }
 local msg_id = msg.id/2097152/0.5
@@ -8433,7 +8433,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '- قناة السورس', url = 't.me/ODKXXQ'}, 
+{text = '- قناة السورس', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -9775,7 +9775,7 @@ Redis:del(TheMAX..'MAX:Texting:DevTheMAX')
 return LuaTele.sendText(msg_chat_id,msg_id,'᥀︙ تم حذف كليشه المطور')
 end
 if text == 'مبرمج سورس' or text == 'مطور السورس' or text == 'المبرمج' then  
-local UserId_Info = LuaTele.searchPublicChat("YTTYB")
+local UserId_Info = LuaTele.searchPublicChat("RUKKS")
 if UserId_Info.id then
 local UserInfo = LuaTele.getUser(UserId_Info.id)
 local InfoUser = LuaTele.getUserFullInfo(UserId_Info.id)
@@ -9790,7 +9790,7 @@ local TestText = "  ❲ MAX 𝖲𝗈𝗎𝗋𝖼𝖾 ❳\n— — — — — �
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳', url = "https://t.me/ODKXXQ"}
+{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳', url = "https://t.me/RoXeTEaM"}
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -9800,10 +9800,10 @@ local TestText = "- معلومات مطور السورس : \\nn: name Dev . ["..
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ 𝖼𝗈𝖽𝖾𝗋 ❳', url = "https://t.me/YTTYB"}
+{text = '❲ 𝖼𝗈𝖽𝖾𝗋 ❳', url = "https://t.me/RUKKS"}
 },
 {
-{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳', url = "https://t.me/ODKXXQ"},
+{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳', url = "https://t.me/RoXeTEaM"},
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -9825,7 +9825,7 @@ local TestText = "  ❲ Developers Bot ❳\n— — — — — — — — —\
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳', url = "https://t.me/ODKXXQ"}
+{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳', url = "https://t.me/RoXeTEaM"}
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -9896,7 +9896,7 @@ data = {
 {text = 'Facebook', url = 'https://www.facebook.com/help/deleteaccount'},{text = 'Snapchat', url = 'https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fdeleteaccount'}
 },
 {
-{text = '˛ Max 𝖲𝗈𝗎𝗋𝖼𝖾 .', url = 't.me/ODKXXQ'}, 
+{text = '˛ Max 𝖲𝗈𝗎𝗋𝖼𝖾 .', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -9912,12 +9912,12 @@ end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then
 photo = "https://t.me/keowkdjodnxnkd/2"
 local T =[[
-Welcome to Source : [MAX.](https://t.me/ODKXXQ)
+Welcome to Source : [MAX.](https://t.me/RoXeTEaM)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝖣𝖤𝖵𝖤𝖫𝖮𝖯𝖤𝖱 ', url = "https://t.me/YTTYB"},{text = '𝖲𝗈𝗎𝗋𝖼𝖾 Max', url = "https://t.me/ODKXXQ"}
+{text = '𝖣𝖤𝖵𝖤𝖫𝖮𝖯𝖤𝖱 ', url = "https://t.me/RUKKS"},{text = '𝖲𝗈𝗎𝗋𝖼𝖾 Max', url = "https://t.me/RoXeTEaM"}
 },
 }
 local msgg = msg_id/2097152/0.5
@@ -9947,7 +9947,7 @@ data = {
 {text = 'اوامر القفل الفتح', data = msg.sender.user_id..'/NoNextSeting'}, {text = '  اوامر التعطيل التفعيل  ', data = msg.sender.user_id..'/listallAddorrem'}, 
 },
 {
-{text = '- قناة السورس', url = 't.me/ODKXXQ'}, 
+{text = '- قناة السورس', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -9975,7 +9975,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/ODKXXQ'}, 
+{text = '- قناة السورس', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -9995,7 +9995,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/ODKXXQ'}, 
+{text = '- قناة السورس', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -10015,7 +10015,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/ODKXXQ'}, 
+{text = '- قناة السورس', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -10035,7 +10035,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/ODKXXQ'}, 
+{text = '- قناة السورس', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -10055,7 +10055,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/ODKXXQ'}, 
+{text = '- قناة السورس', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -10069,7 +10069,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/ODKXXQ'}, 
+{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -10083,7 +10083,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/ODKXXQ'}, 
+{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -10098,7 +10098,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/ODKXXQ'}, 
+{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -10113,7 +10113,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/ODKXXQ'}, 
+{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -10128,7 +10128,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/ODKXXQ'}, 
+{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -10143,7 +10143,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/ODKXXQ'}, 
+{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -10158,7 +10158,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/ODKXXQ'}, 
+{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -10173,7 +10173,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/ODKXXQ'}, 
+{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -10188,7 +10188,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/ODKXXQ'}, 
+{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -10202,7 +10202,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/ODKXXQ'}, 
+{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -10217,7 +10217,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/ODKXXQ'}, 
+{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -10232,7 +10232,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/ODKXXQ'}, 
+{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -10247,7 +10247,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/ODKXXQ'}, 
+{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -10262,7 +10262,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/ODKXXQ'}, 
+{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -10278,7 +10278,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/ODKXXQ'}, 
+{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -10292,7 +10292,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/ODKXXQ'}, 
+{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -10307,7 +10307,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/ODKXXQ'}, 
+{text = 'Max 𝖲𝗈𝗎𝗋𝖼𝖾', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -11314,7 +11314,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '᥀ السورس .', url = 't.me/ODKXXQ'},{text = '᥀ لتنصيب بوت .', url = 't.me/YTTYB'}, 
+{text = '᥀ السورس .', url = 't.me/RoXeTEaM'},{text = '᥀ لتنصيب بوت .', url = 't.me/RUKKS'}, 
 },
 {
 {text = '᥀ اضفني في مجموعتك .', url = 't.me/'..UserBot..'?startgroup=new'}, 
@@ -11327,7 +11327,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '᥀ السورس .', url = 't.me/ODKXXQ'},{text = '᥀ لتنصيب بوت .', url = 't.me/YTTYB'}, 
+{text = '᥀ السورس .', url = 't.me/RoXeTEaM'},{text = '᥀ لتنصيب بوت .', url = 't.me/RUKKS'}, 
 },
 {
 {text = '᥀ اضفني في مجموعتك .', url = 't.me/'..UserBot..'?startgroup=new'}, 
@@ -12168,7 +12168,7 @@ keyboard.inline_keyboard = {
 {text = ': مره اخرى 🔃.', callback_data = IdUser..'/Re@'},
 },
 {
-{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳',url="t.me/ODKXXQ"}
+{text = '❲ Max 𝖲𝗈𝗎𝗋𝖼𝖾 ❳',url="t.me/RoXeTEaM"}
 },
 }
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. ChatId .. '&voice=https://t.me/TEAMSUL/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -12446,7 +12446,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/ODKXXQ'}, 
+{text = '- قناة السورس', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -12504,7 +12504,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/ODKXXQ'}, 
+{text = '- قناة السورس', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -12563,7 +12563,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/ODKXXQ'}, 
+{text = '- قناة السورس', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -12616,7 +12616,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/ODKXXQ'}, 
+{text = '- قناة السورس', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -12656,7 +12656,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/ODKXXQ'}, 
+{text = '- قناة السورس', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -12711,7 +12711,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/ODKXXQ'}, 
+{text = '- قناة السورس', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
@@ -12752,7 +12752,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/ODKXXQ'}, 
+{text = '- قناة السورس', url = 't.me/RoXeTEaM'}, 
 },
 }
 }
